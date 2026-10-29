@@ -1,0 +1,299 @@
+{
+  "roles": {
+    "Full Stack Developer": {
+      "category": "Software Engineering",
+      "core_skills": ["JavaScript", "React", "Node.js", "SQL", "Git", "REST APIs", "PostgreSQL", "Docker", "System Design", "HTML", "CSS"],
+      "emerging_skills": ["TypeScript", "Next.js", "Tailwind CSS", "GraphQL", "Redis", "CI/CD"],
+      "soft_skills": ["Problem Solving", "Communication", "Teamwork", "Agile Methodologies"],
+      "market_demand_score": 92
+    },
+    "Data Scientist": {
+      "category": "Data & Analytics",
+      "core_skills": ["Python", "SQL", "Pandas", "NumPy", "Machine Learning", "Data Analysis", "Statistics", "Scikit-Learn", "Data Visualization"],
+      "emerging_skills": ["Deep Learning", "TensorFlow", "PyTorch", "NLP", "MLOps", "Generative AI", "BigQuery"],
+      "soft_skills": ["Critical Thinking", "Data Storytelling", "Business Acumen", "Problem Solving"],
+      "market_demand_score": 90
+    },
+    "ML Engineer": {
+      "category": "Artificial Intelligence",
+      "core_skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "Docker", "SQL", "Git", "Data Structures", "Algorithms"],
+      "emerging_skills": ["MLOps", "Kubeflow", "MLflow", "Vector Databases", "LangChain", "Model Serving", "Transformer Models"],
+      "soft_skills": ["Systematic Debugging", "Research Mindset", "Communication", "Collaboration"],
+      "market_demand_score": 95
+    },
+    "Backend Developer": {
+      "category": "Software Engineering",
+      "core_skills": ["Python", "Node.js", "SQL", "PostgreSQL", "Docker", "REST APIs", "System Design", "Git", "Linux", "Database Optimization"],
+      "emerging_skills": ["Go", "FastAPI", "Microservices", "Kafka", "Kubernetes", "AWS", "gRPC"],
+      "soft_skills": ["Analytical Thinking", "Reliability", "Documentation", "Teamwork"],
+      "market_demand_score": 89
+    },
+    "Frontend Developer": {
+      "category": "Software Engineering",
+      "core_skills": ["JavaScript", "React", "HTML", "CSS", "Tailwind CSS", "Git", "REST APIs", "Responsive Design", "State Management"],
+      "emerging_skills": ["Next.js", "Web Vitals", "TypeScript", "Framer Motion", "Accessibility", "GraphQL"],
+      "soft_skills": ["UI/UX Empathy", "Attention to Detail", "Communication", "Creativity"],
+      "market_demand_score": 87
+    },
+    "DevOps Engineer": {
+      "category": "Cloud & Infrastructure",
+      "core_skills": ["Linux", "Docker", "Kubernetes", "CI/CD", "AWS", "Git", "Shell Scripting", "System Design", "Networking"],
+      "emerging_skills": ["Terraform", "Ansible", "Prometheus", "Grafana", "ArgoCD", "Infrastructure as Code"],
+      "soft_skills": ["Incident Management", "Resilience", "Cross-team Collaboration", "Documentation"],
+      "market_demand_score": 94
+    },
+    "Cloud Engineer": {
+      "category": "Cloud & Infrastructure",
+      "core_skills": ["AWS", "Azure", "Docker", "Kubernetes", "Linux", "Python", "CI/CD", "System Design", "Cloud Security"],
+      "emerging_skills": ["GCP", "Serverless", "Terraform", "Cost Optimization", "Hybrid Cloud"],
+      "soft_skills": ["Strategic Planning", "Communication", "Continuous Learning", "Problem Solving"],
+      "market_demand_score": 91
+    },
+    "Cybersecurity Analyst": {
+      "category": "Information Security",
+      "core_skills": ["Network Security", "Linux", "Python", "SIEM", "Vulnerability Assessment", "Firewalls", "Cryptography", "Identity Management"],
+      "emerging_skills": ["Cloud Security", "Threat Hunting", "SOC Automation", "Zero Trust Architecture", "DevSecOps"],
+      "soft_skills": ["Ethical Integrity", "Investigation", "Attention to Detail", "Crisis Communication"],
+      "market_demand_score": 93
+    }
+  },
+  "skill_taxonomy": {
+    "Programming": ["Python", "JavaScript", "TypeScript", "Java", "C++", "C", "Go", "Rust", "Ruby", "PHP", "Shell Scripting", "Bash", "SQL"],
+    "Frontend": ["React", "Next.js", "Vue.js", "Angular", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "Redux", "Framer Motion", "Responsive Design"],
+    "Backend": ["Node.js", "Express", "FastAPI", "Django", "Flask", "Spring Boot", "REST APIs", "GraphQL", "gRPC", "Microservices"],
+    "Databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQLite", "DynamoDB", "Cassandra", "Elasticsearch", "SQL"],
+    "DevOps & Cloud": ["Docker", "Kubernetes", "AWS", "Azure", "GCP", "Linux", "Git", "GitHub Actions", "CI/CD", "Terraform", "Ansible", "Nginx"],
+    "AI & Data Science": ["Machine Learning", "Deep Learning", "Data Analysis", "Pandas", "NumPy", "TensorFlow", "PyTorch", "Scikit-Learn", "NLP", "Computer Vision", "Generative AI", "MLOps", "Transformers", "LangChain"],
+    "Core CS": ["Data Structures", "Algorithms", "System Design", "Operating Systems", "Computer Networks", "Database Management", "Object-Oriented Programming"],
+    "Soft Skills": ["Problem Solving", "Communication", "Teamwork", "Leadership", "Critical Thinking", "Agile Methodologies", "Time Management"]
+  },
+  "learning_materials": {
+    "Docker": {
+      "skill": "Docker",
+      "summary": "Containerization platform to package apps into isolated environments.",
+      "documentation": "https://docs.docker.com/get-started/",
+      "course": {
+        "title": "Docker Mastery with Kubernetes & Swarm",
+        "provider": "Udemy",
+        "url": "https://www.udemy.com/course/docker-mastery/"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+      "practice_project": "Containerize a multi-container React + FastAPI + PostgreSQL application using docker-compose.",
+      "estimated_hours": 20
+    },
+    "System Design": {
+      "skill": "System Design",
+      "summary": "Designing distributed, scalable, and fault-tolerant architectures.",
+      "documentation": "https://github.com/donnemartin/system-design-primer",
+      "course": {
+        "title": "Grokking Modern System Design Interview",
+        "provider": "Educative",
+        "url": "https://www.educative.io"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=m8Icp_Cid5o",
+      "practice_project": "Design a distributed URL shortener (TinyURL) with Redis caching, rate limiting, and database sharding.",
+      "estimated_hours": 35
+    },
+    "PostgreSQL": {
+      "skill": "PostgreSQL",
+      "summary": "Enterprise-grade relational database with ACID compliance, indexing, and JSON support.",
+      "documentation": "https://www.postgresql.org/docs/",
+      "course": {
+        "title": "The Complete SQL & PostgreSQL Bootcamp",
+        "provider": "Udemy",
+        "url": "https://www.udemy.com"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "practice_project": "Design an e-commerce schema with foreign keys, indexes, triggers, and query performance optimization.",
+      "estimated_hours": 15
+    },
+    "Node.js": {
+      "skill": "Node.js",
+      "summary": "High-performance JavaScript runtime for scalable backend servers.",
+      "documentation": "https://nodejs.org/en/docs",
+      "course": {
+        "title": "Complete Node.js Developer in 2026",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "practice_project": "Build a REST API server with JWT authentication, rate limiting, and MongoDB/Postgres persistence.",
+      "estimated_hours": 25
+    },
+    "Kubernetes": {
+      "skill": "Kubernetes",
+      "summary": "Automated container deployment, scaling, and cluster management.",
+      "documentation": "https://kubernetes.io/docs/home/",
+      "course": {
+        "title": "Certified Kubernetes Administrator (CKA)",
+        "provider": "Udemy",
+        "url": "https://www.udemy.com"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=X48VuDVv0do",
+      "practice_project": "Deploy a microservice cluster using Minikube with Ingress routing and auto-scaling pods.",
+      "estimated_hours": 30
+    },
+    "AWS": {
+      "skill": "AWS",
+      "summary": "Amazon Web Services cloud platform (EC2, S3, RDS, Lambda, IAM).",
+      "documentation": "https://docs.aws.amazon.com/",
+      "course": {
+        "title": "AWS Certified Solutions Architect Associate",
+        "provider": "Coursera / A Cloud Guru",
+        "url": "https://www.coursera.org"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+      "practice_project": "Host a serverless web app using AWS S3, CloudFront, Lambda, and DynamoDB.",
+      "estimated_hours": 40
+    },
+    "Machine Learning": {
+      "skill": "Machine Learning",
+      "summary": "Predictive modeling with Supervised, Unsupervised algorithms and Scikit-Learn.",
+      "documentation": "https://scikit-learn.org/stable/",
+      "course": {
+        "title": "Machine Learning Specialization",
+        "provider": "Coursera (DeepLearning.AI)",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+      "practice_project": "Train a Random Forest classifier on tabular data to predict loan default with cross-validation.",
+      "estimated_hours": 45
+    },
+    "Deep Learning": {
+      "skill": "Deep Learning",
+      "summary": "Neural networks, backpropagation, CNNs, RNNs, and Transformers.",
+      "documentation": "https://pytorch.org/docs/stable/index.html",
+      "course": {
+        "title": "Deep Learning Specialization",
+        "provider": "Coursera (Andrew Ng)",
+        "url": "https://www.coursera.org"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "practice_project": "Implement an image classification model in PyTorch using transfer learning with ResNet.",
+      "estimated_hours": 50
+    },
+    "Data Structures": {
+      "skill": "Data Structures",
+      "summary": "Arrays, Trees, Graphs, Hash Maps, and Heaps essential for engineering interviews.",
+      "documentation": "https://leetcode.com/explore/",
+      "course": {
+        "title": "Data Structures & Algorithms in Python",
+        "provider": "NeetCode / Coursera",
+        "url": "https://neetcode.io"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=pkYVOmU3MgA",
+      "practice_project": "Solve the NeetCode Blind 75 questions with optimal time and space complexity.",
+      "estimated_hours": 60
+    },
+    "CI/CD": {
+      "skill": "CI/CD",
+      "summary": "Continuous integration and deployment automation using GitHub Actions.",
+      "documentation": "https://docs.github.com/en/actions",
+      "course": {
+        "title": "GitHub Actions: The Complete Guide",
+        "provider": "Udemy",
+        "url": "https://www.udemy.com"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+      "practice_project": "Set up a CI/CD workflow that tests code, builds Docker images, and deploys to a cloud server.",
+      "estimated_hours": 15
+    },
+    "FastAPI": {
+      "skill": "FastAPI",
+      "summary": "Modern, asynchronous web framework for Python APIs with automatic Swagger docs.",
+      "documentation": "https://fastapi.tiangolo.com/",
+      "course": {
+        "title": "FastAPI - Modern Python Web Development",
+        "provider": "Udemy",
+        "url": "https://www.udemy.com"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=-ykeT6kk4bk",
+      "practice_project": "Build an ML inference microservice that serves scikit-learn models over REST endpoints.",
+      "estimated_hours": 18
+    },
+    "Python": {
+      "skill": "Python",
+      "summary": "Core Python programming, OOP, data manipulation, and libraries.",
+      "documentation": "https://docs.python.org/3/",
+      "course": {
+        "title": "Python for Everybody Specialization",
+        "provider": "Coursera (Univ. of Michigan)",
+        "url": "https://www.coursera.org"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+      "practice_project": "Build an automated web scraper and data parser using BeautifulSoup and requests.",
+      "estimated_hours": 25
+    },
+    "React": {
+      "skill": "React",
+      "summary": "Component-based UI library with hooks, state management, and virtual DOM.",
+      "documentation": "https://react.dev/",
+      "course": {
+        "title": "The Ultimate React Course",
+        "provider": "Udemy",
+        "url": "https://www.udemy.com"
+      },
+      "free_tutorial": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+      "practice_project": "Create a rich dashboard with interactive charts, dark mode, and real-time state sync.",
+      "estimated_hours": 30
+    }
+  },
+  "courses_db": [
+    {
+      "skill": "React",
+      "course_name": "Modern React with Redux",
+      "provider": "Udemy",
+      "level": "Intermediate",
+      "estimated_weeks": 4,
+      "url": "https://www.udemy.com"
+    },
+    {
+      "skill": "Python",
+      "course_name": "Python for Everybody Specialization",
+      "provider": "Coursera (Univ. of Michigan)",
+      "level": "Beginner to Intermediate",
+      "estimated_weeks": 6,
+      "url": "https://www.coursera.org"
+    },
+    {
+      "skill": "Machine Learning",
+      "course_name": "Machine Learning Specialization",
+      "provider": "Coursera (DeepLearning.AI)",
+      "level": "Intermediate",
+      "estimated_weeks": 8,
+      "url": "https://www.coursera.org"
+    },
+    {
+      "skill": "Docker",
+      "course_name": "Docker and Kubernetes: The Complete Guide",
+      "provider": "Udemy",
+      "level": "Intermediate",
+      "estimated_weeks": 3,
+      "url": "https://www.udemy.com"
+    },
+    {
+      "skill": "System Design",
+      "course_name": "Grokking Modern System Design Interview",
+      "provider": "Educative",
+      "level": "Advanced",
+      "estimated_weeks": 4,
+      "url": "https://www.educative.io"
+    },
+    {
+      "skill": "AWS",
+      "course_name": "AWS Certified Solutions Architect Associate",
+      "provider": "A Cloud Guru / Coursera",
+      "level": "Intermediate",
+      "estimated_weeks": 6,
+      "url": "https://www.coursera.org"
+    },
+    {
+      "skill": "Data Structures",
+      "course_name": "Master the Coding Interview: Data Structures + Algorithms",
+      "provider": "ZeroToMastery",
+      "level": "Foundation",
+      "estimated_weeks": 6,
+      "url": "https://zerotomastery.io"
+    }
+  ]
+}

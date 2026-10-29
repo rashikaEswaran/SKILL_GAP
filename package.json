@@ -1,0 +1,14 @@
+{
+  "name": "skillsync-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SkillSync AI - AI & ML Skill Gap Analytics Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "python -m uvicorn backend.main:app --reload --port 8000",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "train:ml": "python -m ml_models.train"
+  }
+}

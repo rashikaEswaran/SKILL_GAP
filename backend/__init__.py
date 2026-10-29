@@ -1,0 +1,1 @@
+"""SkillSync FastAPI Backend Server"""
